@@ -1,0 +1,186 @@
+.banner img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.content .daohangdiv {
+	padding-top: 38px;
+	line-height: 30px;
+	float: right;
+	border-bottom: 1px solid #666;
+	width: 90%;
+	text-align: right;
+}
+
+.content .daohangdiv a {
+	font-size: 16px;
+	color: #333;
+	margin-left: 14px;
+	margin-right: 4px;
+}
+
+.content .daohangdiv a:last-of-type {
+	color: orange;
+}
+
+.content .w1210>ul {
+	border-left: 1px solid #818181;
+	float: left;
+}
+
+.content .w1210>ul li {
+	padding: 20px;
+	cursor: pointer;
+	width: 156px;
+	position: relative;
+}
+
+.content li.active {
+	color: orange;
+}
+
+.content .w1210>ul li div:first-of-type {
+	width: 10px;
+	border-bottom: 1px solid #818181;
+	position: absolute;
+	top: 50%;
+	left: -1px;
+}
+
+.content .w1210>ul li {
+	padding-left: 30px;
+}
+
+.content .w1210>ul li div:last-child {
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	border: 1px solid #858585;
+	border-left: 0px;
+	border-bottom: 0px;
+	position: absolute;
+	right: 24px;
+	top: 40%;
+}
+
+.content .prodcut {
+	float: right;
+	width: 980px;
+	position: relative;
+	overflow: hidden;
+}
+
+.prodcut h1 {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.prodcut h1 span:first-of-type {
+	font-size: 18px;
+	color: #343434;
+}
+
+.prodcut h1 span:last-of-type {
+	margin-left: 14px;
+	font-size: 12px;
+	color: #666;
+}
+
+.prodcut>p {
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.prodcut>ul li {
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	line-height: 25px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.prodcut>ul {
+	margin: 30px 0 20px 0;
+	text-align: center;
+}
+
+.prodcut>ul li:first-of-type {
+	border: 1px solid;
+}
+
+.prodcut>ul li:last-of-type {
+	border: 1px solid;
+}
+
+.prodcut>ul li.active {
+	color: orange;
+}
+.prodcut div.four{
+	margin-bottom: 30px;
+}
+.prodcut div.four>div{
+	height: 400px;
+	width: 212px;
+	margin-right: 44px;
+	float: left;
+	position: relative;
+}
+
+.prodcut div.four>div:last-of-type {
+	margin-right: 0px;
+}
+
+.prodcut div.four div img {
+	width: 100%;
+	height: 342px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+}
+.prodcut div.four>div>p{
+	width: 212px;
+	color: #333;
+	font-size: 12px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.prodcut div.four>div>div>div:first-of-type{
+	box-sizing: border-box;
+	position: absolute;
+	height: 342px;
+	width: 212px;
+	top: 0px;
+	left: 0px;
+	background: black;
+	opacity: 0.3;
+	
+}
+.prodcut div.four>div>div>div:last-of-type{
+	height: 310px;
+	width: 180px;
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+	line-height: 310px;
+	position: absolute;
+	z-index: 1;
+	left: 16px;
+	top: 16px;
+}
+.prodcut div.four>div:hover div{
+	display: block;
+}
+.prodcut div.four>div>div{
+	display: none;
+}

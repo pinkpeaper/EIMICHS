@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 16px;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix:after{
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+.w1210{
+	width: 1210px;
+	min-width: 1210px;
+	margin: 0 auto;
+}
+div.head .w1210{
+	height: 78px;
+}
+div.head img{
+	margin-top: 24px;
+}
+div.head li{
+	margin-left: 66px;
+	text-align: center;
+	line-height: 78px;
+	float: left;
+}
+div.head li a{
+	font-size: 18px;
+	color: #343434;
+	padding-bottom: 5px;
+}
+div.head li a:hover{
+	color: #fc7863;
+	border-bottom: 2px solid #fc7863;
+}
+
+
+.titletwo{
+	width: 156px;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+.titletwo>div{
+	position: relative;
+	font-size: 22px;
+	font-weight: bold;
+}
+.titletwo .two1{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	height: 18px;
+	width: 18px;
+	border-left:1px solid ;
+	border-top: 1px solid;
+}
+.titletwo .two2{
+	position: absolute;
+	right: -1px;
+	bottom: -1px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	height: 18px;
+	width: 18px;
+}
+.titletwo h2{
+	font-size: 12px;
+	color: #666;
+	margin-top: 10px;
+}
+.titlefour{
+	position: relative;
+	line-height: 30px;
+	text-align: center;
+	width: 126px;
+	height: 30px;
+	clear: both;
+}
+.titlefour a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	color: #e15347;
+	font-weight: bold;
+}
+.titlefour .fourtop{
+	width: 29px;
+	position: absolute;
+	top: 0px;
+	right: 6px;
+	border-top: 1px solid #666;
+}
+.titlefour .fourright{
+	position: absolute;
+	right: 0px;
+	top: 7px;
+	height: 18px;
+	border-right: 1px solid #666;
+}
+.titlefour .fourbottom{
+	position: absolute;
+	width: 29px;
+	left: 6px;
+	bottom:0px;
+	border-bottom: 1px solid #666;
+}
+.titlefour .fourleft{
+	position: absolute;
+	height: 18px;
+	bottom: 7px;
+	left: 0px;
+	border-left: 1px solid #666;
+}
+.footer{
+	line-height: 80px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	background:#666 ;
+	clear: both;
+}

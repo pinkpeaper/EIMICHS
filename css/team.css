@@ -1,0 +1,136 @@
+.banner img{
+	width: 100%;
+	vertical-align: top;
+}
+.content{
+	min-height: 820px;
+}
+.content .daohangdiv{
+	padding-top: 38px;
+	line-height: 30px;
+	float: right;
+	border-bottom: 1px solid #666;
+	width: 90%;
+	text-align: right;
+}
+.content .daohangdiv a{
+	font-size: 16px;
+	color: #333;
+	margin-left:14px ;
+	margin-right: 4px;
+}
+.content .daohangdiv a:last-of-type{
+	color: orange;
+}
+.content .w1210>ul{
+	border-left: 1px solid #818181;
+	float: left;
+}
+.content .w1210>ul li{
+	padding: 20px;
+	cursor: pointer;
+	width: 156px;
+	position: relative;
+}
+.content li.active{
+	color: orange;
+}
+.content .w1210>ul li div:first-of-type{
+	width: 10px;
+	border-bottom:1px solid #818181;
+	position: absolute;
+	top: 50%;
+	left: -1px;
+}
+.content .w1210>ul li{
+	padding-left: 30px;
+}
+.content .w1210>ul li div:last-child{
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	border: 1px solid #858585;
+	border-left:0px ;
+	border-bottom: 0px;
+	position: absolute;
+	right: 24px;
+	top: 40%;
+}
+.content .people{
+	float: right;
+	width: 980px;
+	padding-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.people div:first-of-type{
+	width: 700px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	height: 293px;
+	overflow: hidden;
+}
+.people h1{
+	padding-bottom: 8px;
+	border-bottom: 1px solid #999;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.people h1 span:first-of-type{
+	font-size: 18px;
+	color: #343434;
+}
+.people h1 span:last-of-type{
+	margin-left: 14px;
+	font-size: 12px;
+	color: #666;
+}
+.people p{
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+.people>div:first-of-type img{
+	height: 293px;
+	width: 276px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.people>h1{
+	display: block;
+	margin-bottom: 30px;
+}
+.people>ul li{
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	line-height: 25px;
+	display: inline-block;
+	cursor: pointer;
+}
+.people div:nth-of-type(2){
+	width: 1960px;
+	height: 260px;
+	overflow: hidden;
+}
+.people div:nth-of-type(2) img{
+	width: 190px;
+	height: 260px;
+	margin: 0px 25px;
+}
+.people>ul{
+	margin: 30px 0 20px 0;
+	text-align: center;
+}
+.people>ul li:first-of-type{
+	border: 1px solid;
+}
+.people>ul li:last-of-type{
+	border: 1px solid;
+}
+.people>ul li.active{
+	color: orange;
+}
